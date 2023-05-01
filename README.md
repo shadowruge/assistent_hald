@@ -1,7 +1,16 @@
-# assistent_hald
+# Assistent_hald
+    
 Home assistent linux desktop
 
 Este script usa a biblioteca PocketSphinx para realizar reconhecimento de fala em tempo real em um microfone conectado ao seu computador. O script configura o decodificador com o modelo acústico padrão do Debian e o dicionário cmudict. Ele usa a biblioteca PyAudio para capturar áudio do microfone e enviar para o decodificador.
+
+## Instalando dependências
+
+- mkdir novo_projeto
+- cd novo_projeto/
+- python3 -m venv novo_projeto
+- source nome_do_ambiente_virtual/bin/activate
+- pip3 install --upgrade speechrecognition
 
 ## Requisitos
 
